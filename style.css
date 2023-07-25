@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(nature-3082832_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0.1;
+    
+}
+
+.cantainer{
+    background-color: rgb(201, 119, 133);
+    border: 3px solid black;
+    width: 17rem;
+    height: 24rem;
+    margin-left: 40rem;
+    margin-top: 8rem;
+    border-radius: 10px;
+    /* box-shadow: 4px 0 black; */
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#input{
+    margin-left: 12px;
+    height: 4rem;
+    width: 15rem;
+    border: 2px solid black;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: white;
+
+    
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top:1rem ;
+    gap:1rem;
+    height: 15rem;
+    width: 15rem;
+    font-size: 50px;
+    font-weight: bold;
+    /* box-shadow:4px 0 wheat ; */
+    
+
+}
+.operator{
+    background-color: rgb(223, 156, 33);
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.operator:hover{
+    background-color:aqua;
+    color:black;
+}
+.number{
+    background-color: wheat;
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+
+} 
+.number:hover{
+    background-color:gray;
+    color: black;
+}
+#delete{
+    background-color:wheat;
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    transition:all 0.5s ease-in-out ;
+
+
+}
+#delete:hover{
+    background-color: red;
+    color: black;
+}
+#equaltoo{
+    background-color:wheat;
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    transition:all 0.5s ease-in-out ;
+}
+#equaltoo:hover{
+    background-color: green;
+    color: black;
+}
+#decimal{
+    background-color:wheat;
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    transition:all 0.5s ease-in-out ;
+}
+#decimal:hover{
+    background-color: grey;
+    color: black;
+}
+#percentage{
+    background-color:wheat;
+    color:black;
+    box-shadow: 4px 0 gb black;
+    border-radius: 5px;
+    transition:all 0.5s ease-in-out ;
+}
+#percentage:hover{
+    background-color: grey;
+    color: black;
+}
+#clear{
+    background-color:wheat;
+    color:black;
+    box-shadow: 4px 0 black;
+    border-radius: 5px;
+    width: 50px;
+    transition:all 0.5s ease-in-out ;
+}
+#clear:hover{
+    background-color: grey;
+    color: black;
+}
